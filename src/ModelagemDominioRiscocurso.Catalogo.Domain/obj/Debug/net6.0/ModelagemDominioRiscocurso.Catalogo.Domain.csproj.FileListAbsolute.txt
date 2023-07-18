@@ -1,0 +1,12 @@
+C:\AspNetCore\ModelagemDominoRicosCurso\src\ModelagemDominioRiscocurso.Catalogo.Domain\bin\Debug\net6.0\ModelagemDominioRiscocurso.Catalogo.Domain.deps.json
+C:\AspNetCore\ModelagemDominoRicosCurso\src\ModelagemDominioRiscocurso.Catalogo.Domain\bin\Debug\net6.0\ModelagemDominioRiscocurso.Catalogo.Domain.dll
+C:\AspNetCore\ModelagemDominoRicosCurso\src\ModelagemDominioRiscocurso.Catalogo.Domain\bin\Debug\net6.0\ModelagemDominioRiscocurso.Catalogo.Domain.pdb
+C:\AspNetCore\ModelagemDominoRicosCurso\src\ModelagemDominioRiscocurso.Catalogo.Domain\obj\Debug\net6.0\ModelagemDominioRiscocurso.Catalogo.Domain.csproj.AssemblyReference.cache
+C:\AspNetCore\ModelagemDominoRicosCurso\src\ModelagemDominioRiscocurso.Catalogo.Domain\obj\Debug\net6.0\ModelagemDominioRiscocurso.Catalogo.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\AspNetCore\ModelagemDominoRicosCurso\src\ModelagemDominioRiscocurso.Catalogo.Domain\obj\Debug\net6.0\ModelagemDominioRiscocurso.Catalogo.Domain.AssemblyInfoInputs.cache
+C:\AspNetCore\ModelagemDominoRicosCurso\src\ModelagemDominioRiscocurso.Catalogo.Domain\obj\Debug\net6.0\ModelagemDominioRiscocurso.Catalogo.Domain.AssemblyInfo.cs
+C:\AspNetCore\ModelagemDominoRicosCurso\src\ModelagemDominioRiscocurso.Catalogo.Domain\obj\Debug\net6.0\ModelagemDominioRiscocurso.Catalogo.Domain.csproj.CoreCompileInputs.cache
+C:\AspNetCore\ModelagemDominoRicosCurso\src\ModelagemDominioRiscocurso.Catalogo.Domain\obj\Debug\net6.0\ModelagemDominioRiscocurso.Catalogo.Domain.dll
+C:\AspNetCore\ModelagemDominoRicosCurso\src\ModelagemDominioRiscocurso.Catalogo.Domain\obj\Debug\net6.0\refint\ModelagemDominioRiscocurso.Catalogo.Domain.dll
+C:\AspNetCore\ModelagemDominoRicosCurso\src\ModelagemDominioRiscocurso.Catalogo.Domain\obj\Debug\net6.0\ModelagemDominioRiscocurso.Catalogo.Domain.pdb
+C:\AspNetCore\ModelagemDominoRicosCurso\src\ModelagemDominioRiscocurso.Catalogo.Domain\obj\Debug\net6.0\ref\ModelagemDominioRiscocurso.Catalogo.Domain.dll
