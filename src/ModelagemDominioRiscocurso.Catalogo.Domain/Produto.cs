@@ -1,25 +1,22 @@
-﻿using ModelagemDominioRiscoCurso.Core;
-using ModelagemDominioRiscoCurso.Core.DomainObjects;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using ModelagemDominioRiscoCurso.Core.DomainObjects;
+using static System.Net.Mime.MediaTypeNames;
+using System.Drawing;
 
 namespace ModelagemDominioRiscocurso.Catalogo.Domain
 {
     public class Produto : Entity,IAggregateRoot
     {
-        public Produto(Guid categortiaId, string nome, string descricao, bool ativo,
+        public Produto(Guid categoriaId, string nome, string descricao, bool ativo,
                                         decimal valor, DateTime datacadastro, string imagem)
         {
-            CategortiaId = categortiaId;
+            CategoriaId = categoriaId;
             Nome = nome;
             Descricao = descricao;
             Ativo = ativo;
             Valor = valor;
             Datacadastro = datacadastro;
             Imagem = imagem;
+            Validar();
   
         }
 
@@ -37,7 +34,7 @@ namespace ModelagemDominioRiscocurso.Catalogo.Domain
         public void Ativar() => Ativo = true;
         public void Desativar() => Ativo = false;
 
-        public void AlterarCAtegoria(Categoria categoria)
+        public void AlterarCategoria(Categoria categoria)
         {
             Categoria = categoria;
             CategoriaId = categoria.Id;
@@ -45,12 +42,14 @@ namespace ModelagemDominioRiscocurso.Catalogo.Domain
 
         public void AlterarDescricao(string desricao) 
         {
+            Validacoes.ValidarSevazio(desricao,"O campo Descriação do produto não pode estar vazio!");
             Descricao = desricao;
         }
 
         public void DebitarEstoque(int quantidade)
         {
             if(quantidade < 0 ) quantidade *= -1;
+            if (!PossuiEstoque(quantidade)) throw new DomainException("Estoque insuficiente.");
             QuantidadeEstoque -= quantidade;
         }
 
@@ -64,21 +63,14 @@ namespace ModelagemDominioRiscocurso.Catalogo.Domain
         }
 
         public void Validar()
-        { }
-
-    }
-
-    public class Categoria : Entity
-    {
-        public string Nome { get; set; }
-        public int Codigo { get; set;}
-
-        public Categoria(string nome,int codigo)
         {
-            Nome = nome;
-            Codigo = codigo;
+            Validacoes.ValidarSevazio(Nome, "O campo nome não pode ser vazio! ");
+            Validacoes.ValidarSevazio(Descricao, "O campo descrição não pode ser vazio!");
+            Validacoes.ValidaSeDiferente(CategoriaId,Guid.Empty,"O campo categoriaId do produto não pode ser nulo!");
+            Validacoes.ValidarSeMenorIgualMinimo(Valor,0,"O campo valor do porduto não pode ser menor ou igual a zero!");
+            Validacoes.ValidarSevazio(Imagem,"o campo Imagem do produto não pode ser vazio!");
+        
         }
-
 
     }
 }

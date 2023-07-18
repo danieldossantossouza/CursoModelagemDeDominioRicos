@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ModelagemDominioRiscoCurso.Core
+namespace ModelagemDominioRiscoCurso.Core.DomainObjects
 {
     public interface IAggregateRoot { }
 }
