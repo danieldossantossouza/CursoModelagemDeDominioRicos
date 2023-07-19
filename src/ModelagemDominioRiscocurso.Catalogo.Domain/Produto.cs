@@ -6,19 +6,7 @@ namespace ModelagemDominioRiscocurso.Catalogo.Domain
 {
     public class Produto : Entity,IAggregateRoot
     {
-        public Produto(Guid categoriaId, string nome, string descricao, bool ativo,
-                                        decimal valor, DateTime datacadastro, string imagem)
-        {
-            CategoriaId = categoriaId;
-            Nome = nome;
-            Descricao = descricao;
-            Ativo = ativo;
-            Valor = valor;
-            Datacadastro = datacadastro;
-            Imagem = imagem;
-            Validar();
-  
-        }
+    
 
         public Guid CategoriaId { get; private set; }
         public string Nome { get; private set; }
@@ -29,8 +17,23 @@ namespace ModelagemDominioRiscocurso.Catalogo.Domain
         public int QuantidadeEstoque { get; private set; }
         public string Imagem { get; private set; }
         public Categoria Categoria { get; private set; }
+        public Dimensoes Dimensoes { get; private set; }
 
+        public Produto(Guid categoriaId, string nome, string descricao, bool ativo,
+                                    decimal valor, DateTime datacadastro, string imagem,Dimensoes dimensoes)
+        {
+            CategoriaId = categoriaId;
+            Nome = nome;
+            Descricao = descricao;
+            Ativo = ativo;
+            Valor = valor;
+            Datacadastro = datacadastro;
+            Imagem = imagem;
+            Dimensoes= dimensoes;
 
+            Validar();
+
+        }
         public void Ativar() => Ativo = true;
         public void Desativar() => Ativo = false;
 
