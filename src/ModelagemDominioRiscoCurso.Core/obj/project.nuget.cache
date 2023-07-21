@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "0Fsn6M+YalYvmecRyZ2JK9ngSIk4v6ywWc8adYq0hZYbHhL6nyfCeR2iOyDsu+LQfFMoWo76FDc8XaHz8nhJ2w==",
+  "dgSpecHash": "uinf7uKzMmojZiBC9HjJm0gpJovE5SbQyDcJRWbpEgI1Su0rGFYJfB9ZRUc9/ll7zCFqtT+whosp+k/FHURUyw==",
   "success": true,
-  "projectFilePath": "C:\\AspNetCore\\ModelagemDominoRicosCurso\\src\\ModelagemDominioRiscoCurso.Core\\ModelagemDominioRiscoCurso.Core.csproj",
+  "projectFilePath": "C:\\AspNetCore\\CursoModelagemDeDominioRicos\\src\\ModelagemDominioRiscoCurso.Core\\ModelagemDominioRiscoCurso.Core.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

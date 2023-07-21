@@ -45,7 +45,7 @@ namespace ModelagemDominioRiscocurso.Catalogo.Domain
 
         public void AlterarDescricao(string desricao) 
         {
-            Validacoes.ValidarSevazio(desricao,"O campo Descriação do produto não pode estar vazio!");
+            Validacoes.ValidarSeVazio(desricao,"O campo Descriação do produto não pode estar vazio!");
             Descricao = desricao;
         }
 
@@ -67,11 +67,11 @@ namespace ModelagemDominioRiscocurso.Catalogo.Domain
 
         public void Validar()
         {
-            Validacoes.ValidarSevazio(Nome, "O campo nome não pode ser vazio! ");
-            Validacoes.ValidarSevazio(Descricao, "O campo descrição não pode ser vazio!");
-            Validacoes.ValidaSeDiferente(CategoriaId,Guid.Empty,"O campo categoriaId do produto não pode ser nulo!");
-            Validacoes.ValidarSeMenorIgualMinimo(Valor,0,"O campo valor do porduto não pode ser menor ou igual a zero!");
-            Validacoes.ValidarSevazio(Imagem,"o campo Imagem do produto não pode ser vazio!");
+            Validacoes.ValidarSeVazio(Nome, "O campo Nome não pode ser vazio");
+            Validacoes.ValidarSeVazio(Descricao, "O campo Descricao não pode ser vazio");
+            Validacoes.ValidaSeDiferente(CategoriaId,Guid.Empty,"O campo categoriaId do produto não pode ser vazio");
+            Validacoes.ValidarSeMenorQue(Valor,1,"O campo Valor do produto não pode ser menor ou igual a zero");
+            Validacoes.ValidarSeVazio(Imagem,"O campo Imagem do produto não pode ser vazio");
         
         }
 

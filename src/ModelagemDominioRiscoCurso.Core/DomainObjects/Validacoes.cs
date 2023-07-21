@@ -11,7 +11,7 @@ namespace ModelagemDominioRiscoCurso.Core.DomainObjects
     {
         public static void ValidaSeIgual(object object1, object object2, string mensagem)
         {
-            if (!object1.Equals(object2))
+            if (object1.Equals(object2))
             {
                 throw new DomainException(mensagem);
             }
@@ -52,7 +52,7 @@ namespace ModelagemDominioRiscoCurso.Core.DomainObjects
             }
         }
 
-        public static void ValidarSevazio(string valor, string mensagem)
+        public static void ValidarSeVazio(string valor, string mensagem)
         {
             if (valor == null || valor.Trim().Length == 0)
             {
@@ -105,7 +105,7 @@ namespace ModelagemDominioRiscoCurso.Core.DomainObjects
             }
         }
 
-        public static void ValidarSeMenorIgualMinimo(long valor, long minimo, string mensagem)
+        public static void ValidarSeMenorQue(long valor, long minimo, string mensagem)
         {
             if (valor < minimo)
             {
@@ -113,7 +113,7 @@ namespace ModelagemDominioRiscoCurso.Core.DomainObjects
             }
         }
 
-        public static void ValidarSeMenorIgualMinimo(decimal valor, decimal minimo, string mensagem)
+        public static void ValidarSeMenorQue(decimal valor, decimal minimo, string mensagem)
         {
             if (valor < minimo)
             {
@@ -121,7 +121,7 @@ namespace ModelagemDominioRiscoCurso.Core.DomainObjects
             }
         }
 
-        public static void ValidarSeMenorIgualMinimo(int valor, int minimo, string mensagem)
+        public static void ValidarSeMenorQue(int valor, int minimo, string mensagem)
         {
             if (valor < minimo)
             {
@@ -129,7 +129,7 @@ namespace ModelagemDominioRiscoCurso.Core.DomainObjects
             }
         }
 
-        public static void ValidarSeMenorIgualMinimo(double valor, double minimo, string mensagem)
+        public static void ValidarSeMenorQue(double valor, double minimo, string mensagem)
         {
             if (valor < minimo)
             {

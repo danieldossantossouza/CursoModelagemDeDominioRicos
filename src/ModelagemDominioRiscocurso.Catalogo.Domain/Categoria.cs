@@ -20,7 +20,7 @@ namespace ModelagemDominioRiscocurso.Catalogo.Domain
         }
         public void Validar()
         {
-            Validacoes.ValidarSevazio(Nome, "O campo nome da categori não pode ser vazio! ");
+            Validacoes.ValidarSeVazio(Nome, "O campo nome da categori não pode ser vazio! ");
             Validacoes.ValidaSeIgual(Codigo,0,"O campo codigo não pode ser zero!");
 
            

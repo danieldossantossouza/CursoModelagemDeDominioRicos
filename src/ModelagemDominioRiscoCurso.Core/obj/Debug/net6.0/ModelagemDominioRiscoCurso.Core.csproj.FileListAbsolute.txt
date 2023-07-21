@@ -10,3 +10,15 @@ C:\AspNetCore\ModelagemDominoRicosCurso\src\ModelagemDominioRiscoCurso.Core\obj\
 C:\AspNetCore\ModelagemDominoRicosCurso\src\ModelagemDominioRiscoCurso.Core\obj\Debug\net6.0\refint\ModelagemDominioRiscoCurso.Core.dll
 C:\AspNetCore\ModelagemDominoRicosCurso\src\ModelagemDominioRiscoCurso.Core\obj\Debug\net6.0\ModelagemDominioRiscoCurso.Core.pdb
 C:\AspNetCore\ModelagemDominoRicosCurso\src\ModelagemDominioRiscoCurso.Core\obj\Debug\net6.0\ref\ModelagemDominioRiscoCurso.Core.dll
+C:\AspNetCore\CursoModelagemDeDominioRicos\src\ModelagemDominioRiscoCurso.Core\bin\Debug\net6.0\ModelagemDominioRiscoCurso.Core.deps.json
+C:\AspNetCore\CursoModelagemDeDominioRicos\src\ModelagemDominioRiscoCurso.Core\bin\Debug\net6.0\ModelagemDominioRiscoCurso.Core.dll
+C:\AspNetCore\CursoModelagemDeDominioRicos\src\ModelagemDominioRiscoCurso.Core\bin\Debug\net6.0\ModelagemDominioRiscoCurso.Core.pdb
+C:\AspNetCore\CursoModelagemDeDominioRicos\src\ModelagemDominioRiscoCurso.Core\obj\Debug\net6.0\ModelagemDominioRiscoCurso.Core.csproj.AssemblyReference.cache
+C:\AspNetCore\CursoModelagemDeDominioRicos\src\ModelagemDominioRiscoCurso.Core\obj\Debug\net6.0\ModelagemDominioRiscoCurso.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\AspNetCore\CursoModelagemDeDominioRicos\src\ModelagemDominioRiscoCurso.Core\obj\Debug\net6.0\ModelagemDominioRiscoCurso.Core.AssemblyInfoInputs.cache
+C:\AspNetCore\CursoModelagemDeDominioRicos\src\ModelagemDominioRiscoCurso.Core\obj\Debug\net6.0\ModelagemDominioRiscoCurso.Core.AssemblyInfo.cs
+C:\AspNetCore\CursoModelagemDeDominioRicos\src\ModelagemDominioRiscoCurso.Core\obj\Debug\net6.0\ModelagemDominioRiscoCurso.Core.csproj.CoreCompileInputs.cache
+C:\AspNetCore\CursoModelagemDeDominioRicos\src\ModelagemDominioRiscoCurso.Core\obj\Debug\net6.0\ModelagemDominioRiscoCurso.Core.dll
+C:\AspNetCore\CursoModelagemDeDominioRicos\src\ModelagemDominioRiscoCurso.Core\obj\Debug\net6.0\refint\ModelagemDominioRiscoCurso.Core.dll
+C:\AspNetCore\CursoModelagemDeDominioRicos\src\ModelagemDominioRiscoCurso.Core\obj\Debug\net6.0\ModelagemDominioRiscoCurso.Core.pdb
+C:\AspNetCore\CursoModelagemDeDominioRicos\src\ModelagemDominioRiscoCurso.Core\obj\Debug\net6.0\ref\ModelagemDominioRiscoCurso.Core.dll

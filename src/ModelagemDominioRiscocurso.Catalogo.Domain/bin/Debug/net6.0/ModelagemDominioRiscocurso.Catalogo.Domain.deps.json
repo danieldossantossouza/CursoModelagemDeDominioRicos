@@ -7,14 +7,27 @@
   "targets": {
     ".NETCoreApp,Version=v6.0": {
       "ModelagemDominioRiscocurso.Catalogo.Domain/1.0.0": {
+        "dependencies": {
+          "ModelagemDominioRiscoCurso.Core": "1.0.0"
+        },
         "runtime": {
           "ModelagemDominioRiscocurso.Catalogo.Domain.dll": {}
+        }
+      },
+      "ModelagemDominioRiscoCurso.Core/1.0.0": {
+        "runtime": {
+          "ModelagemDominioRiscoCurso.Core.dll": {}
         }
       }
     }
   },
   "libraries": {
     "ModelagemDominioRiscocurso.Catalogo.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "ModelagemDominioRiscoCurso.Core/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
