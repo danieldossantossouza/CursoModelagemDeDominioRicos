@@ -1,12 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using ModelagemDominioRiscoCurso.Core.Messages;
 
-namespace ModelagemDominioRiscoCurso.Core
+namespace ModelagemDominioRiscoCurso.Core.Bus
 {
-    internal interface IMediatrHandler
+    public interface IMediatrHandler
     {
+        Task PublicarEvento<T>(T evento) where T : Event;
     }
 }

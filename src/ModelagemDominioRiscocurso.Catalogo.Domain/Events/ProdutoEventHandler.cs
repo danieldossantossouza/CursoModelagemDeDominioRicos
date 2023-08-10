@@ -16,9 +16,11 @@ namespace ModelagemDominioRiscocurso.Catalogo.Domain.Events
             _produtoRepository = produtoRepository;
         }
 
-        public async Task Handle(ProdutoEstoqueAbaixoEvents notification, CancellationToken cancellationToken)
+        public async Task Handle(ProdutoEstoqueAbaixoEvents mensagem, CancellationToken cancellationToken)
         {
-            throw new NotImplementedException();
+            var produto = await _produtoRepository.ObterPorId(mensagem.AggregateId);
+
+            // Exemplo: aqui você pode enviar um e-mail de mais produtos
         }
     }
 }

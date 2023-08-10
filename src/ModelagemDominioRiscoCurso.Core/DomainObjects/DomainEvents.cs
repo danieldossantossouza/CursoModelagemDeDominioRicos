@@ -1,12 +1,12 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using ModelagemDominioRiscoCurso.Core.Messages;
 
 namespace ModelagemDominioRiscoCurso.Core.DomainObjects
 {
-    public class DomainEvents
+    public class DomainEvents : Event
     {
+        public DomainEvents(Guid aggregateId)
+        {
+            AggregateId = aggregateId;
+        }
     }
 }
