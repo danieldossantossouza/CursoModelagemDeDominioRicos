@@ -16,7 +16,7 @@ namespace ModelagemDominioRiscocurso.Catalogo.Domain
         public DateTime Datacadastro { get; private set; }
         public int QuantidadeEstoque { get; private set; }
         public string Imagem { get; private set; }
-        public Categoria Categoria { get; private set; }
+        public Categoria Categoria { get; set; }
         public Dimensoes Dimensoes { get; private set; }
 
         public Produto(Guid categoriaId, string nome, string descricao, bool ativo,

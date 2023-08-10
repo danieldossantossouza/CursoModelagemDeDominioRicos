@@ -7,6 +7,11 @@ namespace ModelagemDominioRiscocurso.Catalogo.Domain
         public string Nome { get; set; }
         public int Codigo { get; set;}
 
+        //EF Relação
+        protected Categoria()
+        { }
+        public ICollection<Produto>Produtos { get; set; }
+
         public Categoria(string nome,int codigo)
         {
             Nome = nome;
