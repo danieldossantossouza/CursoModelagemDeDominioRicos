@@ -1,8 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "k6XrxkKzmxt7HPz3SC9dyryp+gNuGUGGzE6AplwYlHs3SlfC5x6hOspdjR8UB9mpuA+Y59ur+q16QfMHRrOxjA==",
+  "dgSpecHash": "y31hNV1Zz0WciBvwFWCNQTMyiOvE7v3V/r6PgPnm9hjDwwh+LOLxNQ1E+aoUcUAzm61CftWO12POec7VhWhhmg==",
   "success": true,
   "projectFilePath": "C:\\AspNetCore\\CursoModelagemDeDominioRicos\\src\\ModelagemDominioRiscocurso.Catalogo.Domain\\ModelagemDominioRiscocurso.Catalogo.Domain.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\danie\\.nuget\\packages\\mediatr\\12.1.1\\mediatr.12.1.1.nupkg.sha512",
+    "C:\\Users\\danie\\.nuget\\packages\\mediatr.contracts\\2.0.1\\mediatr.contracts.2.0.1.nupkg.sha512",
+    "C:\\Users\\danie\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\6.0.0\\microsoft.extensions.dependencyinjection.abstractions.6.0.0.nupkg.sha512"
+  ],
   "logs": []
 }

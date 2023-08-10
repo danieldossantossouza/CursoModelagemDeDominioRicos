@@ -1,12 +1,14 @@
 {
   "version": 2,
-  "dgSpecHash": "Wif2PlSlf0oaaTdLm6J9ciDrpXI44fgFTW05K//XMeXWxtMRwX08VycFDEpYUi4peOqqvF+LmgFK4cfnSIRQiA==",
+  "dgSpecHash": "bPU7L45LXNyqTdAFHpBj6RT41R+BKs0li+snXrFwPOq9G4NaAREdjyioLVxQvjA12BS/nDiWHoGIk325Wqzvdw==",
   "success": true,
   "projectFilePath": "C:\\AspNetCore\\CursoModelagemDeDominioRicos\\src\\ModelagemDominioRicos.Catalogo.Data\\ModelagemDominioRicos.Catalogo.Data.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\danie\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\danie\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",
     "C:\\Users\\danie\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
+    "C:\\Users\\danie\\.nuget\\packages\\mediatr\\12.1.1\\mediatr.12.1.1.nupkg.sha512",
+    "C:\\Users\\danie\\.nuget\\packages\\mediatr.contracts\\2.0.1\\mediatr.contracts.2.0.1.nupkg.sha512",
     "C:\\Users\\danie\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.1\\microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",
     "C:\\Users\\danie\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
     "C:\\Users\\danie\\.nuget\\packages\\microsoft.data.sqlclient\\5.0.2\\microsoft.data.sqlclient.5.0.2.nupkg.sha512",

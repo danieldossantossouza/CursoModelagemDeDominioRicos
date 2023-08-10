@@ -102,3 +102,6 @@ C:\AspNetCore\CursoModelagemDeDominioRicos\tests\ModelagemDeDominioRicos.Domain.
 C:\AspNetCore\CursoModelagemDeDominioRicos\tests\ModelagemDeDominioRicos.Domain.Teste\obj\Debug\net6.0\ModelagemDeDominioRicos.Domain.Teste.pdb
 C:\AspNetCore\CursoModelagemDeDominioRicos\tests\ModelagemDeDominioRicos.Domain.Teste\obj\Debug\net6.0\ModelagemDeDominioRicos.Domain.Teste.genruntimeconfig.cache
 C:\AspNetCore\CursoModelagemDeDominioRicos\tests\ModelagemDeDominioRicos.Domain.Teste\obj\Debug\net6.0\ref\ModelagemDeDominioRicos.Domain.Teste.dll
+C:\AspNetCore\CursoModelagemDeDominioRicos\tests\ModelagemDeDominioRicos.Domain.Teste\bin\Debug\net6.0\MediatR.dll
+C:\AspNetCore\CursoModelagemDeDominioRicos\tests\ModelagemDeDominioRicos.Domain.Teste\bin\Debug\net6.0\MediatR.Contracts.dll
+C:\AspNetCore\CursoModelagemDeDominioRicos\tests\ModelagemDeDominioRicos.Domain.Teste\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
