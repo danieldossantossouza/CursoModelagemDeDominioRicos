@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "bPU7L45LXNyqTdAFHpBj6RT41R+BKs0li+snXrFwPOq9G4NaAREdjyioLVxQvjA12BS/nDiWHoGIk325Wqzvdw==",
+  "dgSpecHash": "Oq05QI0G2+Gey4oXF9imdrM38NUcEx6a90CoezH41/peQH1S8uHcAR0xmk1vcjRM5/SMoVNVVNONd245pLPDxw==",
   "success": true,
   "projectFilePath": "C:\\AspNetCore\\CursoModelagemDeDominioRicos\\src\\ModelagemDominioRicos.Catalogo.Data\\ModelagemDominioRicos.Catalogo.Data.csproj",
   "expectedPackageFiles": [

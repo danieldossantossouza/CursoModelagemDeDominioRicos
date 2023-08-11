@@ -1776,6 +1776,9 @@
       "ModelagemDominioRiscoCurso.Core/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "MediatR": "12.1.1"
+        },
         "compile": {
           "bin/placeholder/ModelagemDominioRiscoCurso.Core.dll": {}
         },

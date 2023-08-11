@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "y31hNV1Zz0WciBvwFWCNQTMyiOvE7v3V/r6PgPnm9hjDwwh+LOLxNQ1E+aoUcUAzm61CftWO12POec7VhWhhmg==",
+  "dgSpecHash": "r86GtOmwCkEzuZkAqIHKiVnwXmo+4f2fHEDNp7s8lgFmzhmFQowQ8Fxpq8R0jpdW3cXQyyRZDp+cpnK6jorQug==",
   "success": true,
   "projectFilePath": "C:\\AspNetCore\\CursoModelagemDeDominioRicos\\src\\ModelagemDominioRiscocurso.Catalogo.Domain\\ModelagemDominioRiscocurso.Catalogo.Domain.csproj",
   "expectedPackageFiles": [

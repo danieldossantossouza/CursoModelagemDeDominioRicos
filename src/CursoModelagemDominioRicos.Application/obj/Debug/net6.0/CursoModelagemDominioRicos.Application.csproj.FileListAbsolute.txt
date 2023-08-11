@@ -1,0 +1,5 @@
+C:\AspNetCore\CursoModelagemDeDominioRicos\src\CursoModelagemDominioRicos.Application\obj\Debug\net6.0\CursoModelagemDominioRicos.Application.csproj.AssemblyReference.cache
+C:\AspNetCore\CursoModelagemDeDominioRicos\src\CursoModelagemDominioRicos.Application\obj\Debug\net6.0\CursoModelagemDominioRicos.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\AspNetCore\CursoModelagemDeDominioRicos\src\CursoModelagemDominioRicos.Application\obj\Debug\net6.0\CursoModelagemDominioRicos.Application.AssemblyInfoInputs.cache
+C:\AspNetCore\CursoModelagemDeDominioRicos\src\CursoModelagemDominioRicos.Application\obj\Debug\net6.0\CursoModelagemDominioRicos.Application.AssemblyInfo.cs
+C:\AspNetCore\CursoModelagemDeDominioRicos\src\CursoModelagemDominioRicos.Application\obj\Debug\net6.0\CursoModelagemDominioRicos.Application.csproj.CoreCompileInputs.cache

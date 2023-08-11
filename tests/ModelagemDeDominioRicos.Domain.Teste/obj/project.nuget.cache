@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "jq/bllTX9OvaH8Hmcf1E3LbRWBc3d6huokNmTpXGq/G9eU+4ROF0qBgarOyGHgQdPVyXNx4Eyb14aAWhDxmbAw==",
+  "dgSpecHash": "gelaaxCu2sNtHerZyRCEySJ9cdXh0G5ny8UOf/VyUqrMDMIT+nMkoMUVIC/HMrc8Y+py6zyWeoWRM7PZUD6Biw==",
   "success": true,
   "projectFilePath": "C:\\AspNetCore\\CursoModelagemDeDominioRicos\\tests\\ModelagemDeDominioRicos.Domain.Teste\\ModelagemDeDominioRicos.Domain.Teste.csproj",
   "expectedPackageFiles": [
