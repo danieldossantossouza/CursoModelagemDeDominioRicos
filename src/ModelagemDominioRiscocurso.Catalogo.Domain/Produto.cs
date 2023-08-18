@@ -19,7 +19,7 @@ namespace ModelagemDominioRiscocurso.Catalogo.Domain
         public Categoria Categoria { get; set; }
         public Dimensoes Dimensoes { get; private set; }
 
-        public Produto(){}
+        protected Produto(){}
         public Produto( string nome, string descricao, bool ativo,
                         decimal valor, Guid categoriaId, DateTime datacadastro, string imagem,Dimensoes dimensoes)
         {

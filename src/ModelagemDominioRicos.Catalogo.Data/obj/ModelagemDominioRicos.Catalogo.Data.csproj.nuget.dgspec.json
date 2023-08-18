@@ -64,7 +64,7 @@
             },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
-              "version": "[7.0.9, )"
+              "version": "[6.0.19, )"
             },
             "Microsoft.NETCore.App": {
               "target": "Package",

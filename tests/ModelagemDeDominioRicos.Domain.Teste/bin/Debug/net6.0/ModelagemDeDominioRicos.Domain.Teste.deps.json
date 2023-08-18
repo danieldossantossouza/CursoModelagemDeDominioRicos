@@ -1060,6 +1060,9 @@
         }
       },
       "ModelagemDominioRiscoCurso.Core/1.0.0": {
+        "dependencies": {
+          "MediatR": "12.1.1"
+        },
         "runtime": {
           "ModelagemDominioRiscoCurso.Core.dll": {}
         }

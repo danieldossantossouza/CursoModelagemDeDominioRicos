@@ -1,0 +1,28 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UserSecretsId>aspnet-ModelagemDominioRicos.WepApp.MVC-a223ac6e-e699-432a-b95a-64fc1aa45659</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="12.0.1" />
+    <PackageReference Include="MediatR.Extensions.Microsoft.DependencyInjection" Version="10.0.1" />
+    <PackageReference Include="Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore" Version="6.0.19" />
+    <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="6.0.19" />
+    <PackageReference Include="Microsoft.AspNetCore.Identity.UI" Version="6.0.19" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="6.0.19" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="6.0.19" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="6.0.16" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\CursoModelagemDominioRicos.Application\CursoModelagemDominioRicos.Application.csproj" />
+    <ProjectReference Include="..\ModelagemDominioRicos.Catalogo.Data\ModelagemDominioRicos.Catalogo.Data.csproj" />
+    <ProjectReference Include="..\ModelagemDominioRiscocurso.Catalogo.Domain\ModelagemDominioRiscocurso.Catalogo.Domain.csproj" />
+    <ProjectReference Include="..\ModelagemDominioRiscoCurso.Core\ModelagemDominioRiscoCurso.Core.csproj" />
+  </ItemGroup>
+
+</Project>

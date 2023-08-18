@@ -31,7 +31,7 @@ namespace CursoModelagemDominioRicos.Application.ViewModels
         public DateTime DataCadastro { get; set; }
 
         [Required(ErrorMessage = "O campo {0} é obrigatorio !")]
-        public string? Imagem { get; set; }
+        public string Imagem { get; set; }
 
         [Range(1,int.MaxValue,ErrorMessage ="O campo {0} precisa ter o valor minimo de {1}")]
         [Required(ErrorMessage = "O campo {0} é obrigatorio !")]

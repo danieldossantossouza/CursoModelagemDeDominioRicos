@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\ModelagemDominioRicos.WebApp.MVC.props" />
+</Project>
